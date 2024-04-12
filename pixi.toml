@@ -1,0 +1,18 @@
+[project]
+name = "VizFun"
+version = "0.1.0"
+description = "Add a short description here"
+channels = ["conda-forge"]
+platforms = ["osx-64"]
+
+[tasks]
+
+[dependencies]
+matplotlib = ">=3.8.4,<3.9"
+python = ">=3.12.2,<3.13"
+jupyter = ">=1.0.0,<1.1"
+pytest = ">=8.1.1,<8.2"
+numpy = ">=1.26.4,<1.27"
+pandas = ">=2.2.2,<2.3"
+seaborn = ">=0.13.2,<0.14"
+scipy = ">=1.13.0,<1.14"
